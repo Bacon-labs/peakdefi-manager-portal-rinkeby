@@ -11,13 +11,6 @@
   //
 
   var colors = {
-    gray: {
-      300: '#E3EBF6',
-      600: '#95AAC9',
-      700: '#6E84A3',
-      800: '#152E4D',
-      900: '#283E59'
-    },
     primary: {
       100: '#D2DDEC',
       300: '#A6C5F7',
@@ -46,8 +39,8 @@
     Chart.defaults.global.maintainAspectRatio = false
 
     // Default
-    Chart.defaults.global.defaultColor = colors.gray[600]
-    Chart.defaults.global.defaultFontColor = colors.gray[600]
+    Chart.defaults.global.defaultColor = colors.black
+    Chart.defaults.global.defaultFontColor = colors.black
     Chart.defaults.global.defaultFontFamily = fonts.base
     Chart.defaults.global.defaultFontSize = 13
 
@@ -200,10 +193,10 @@
       gridLines: {
         borderDash: [2],
         borderDashOffset: [2],
-        color: colors.gray[300],
+        color: colors.black,
         drawBorder: false,
         drawTicks: false,
-        zeroLineColor: colors.gray[300],
+        zeroLineColor: colors.black,
         zeroLineBorderDash: [2],
         zeroLineBorderDashOffset: [2]
       },

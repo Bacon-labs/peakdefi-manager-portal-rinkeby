@@ -27,8 +27,8 @@ var Header = (function () {
         scales: {
           yAxes: [{
             gridLines: {
-              color: ThemeCharts.colors.gray[900],
-              zeroLineColor: ThemeCharts.colors.gray[900]
+              color: ThemeCharts.colors.black,
+              zeroLineColor: ThemeCharts.colors.black
             },
             ticks: {
               callback: function (value) {
@@ -58,7 +58,7 @@ var Header = (function () {
       },
       datasets: [
         {
-          label: 'Betoken',
+          label: 'PEAKDEFI',
           borderColor: '#22c88a',
           backgroundColor: '#22c88a',
           fill: false,
